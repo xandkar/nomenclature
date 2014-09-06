@@ -7,8 +7,8 @@ How to name things?
 ### External data source
 
 #### Access
-- `fetch`
-- `store`
+- `fetch` Read: file, object from database
+- `store` Write: file, object to database
 
 
 ### Object
