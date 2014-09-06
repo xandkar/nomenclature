@@ -49,6 +49,7 @@ Not (easily) reproducible, such as UUIDs, random sequences.
 
 #### Access queue (FIFO)
 Which pair is better?
+
 | Pair                 | Pros                         | Cons |
 |----------------------|------------------------------|------|
 | `enqueue`, `dequeue` | explicit, suggest fair order | long |
