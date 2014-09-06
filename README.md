@@ -47,11 +47,14 @@ Not (easily) reproducible, such as UUIDs, random sequences.
 - `union`
 - `diff`
 
-#### Access queue
-- `enqueue`
-- `dequeue`
+#### Access queue (FIFO)
+Which pair is better?
+| Pair                 | Pros                         | Cons |
+|----------------------|------------------------------|------|
+| `enqueue`, `dequeue` | explicit, suggest fair order | long |
+| `in`, `out`          | short, intuitive             | _may_ also mean out of order manipulations |
 
-#### Access stack
+#### Access stack (LIFO)
 - `push`
 - `pop`
 
