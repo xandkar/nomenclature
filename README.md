@@ -54,7 +54,7 @@ Which pair is better?
 |----------------------|------------------------------|------|
 | `enqueue`, `dequeue` | explicit, suggest fair order | long |
 | `in`, `out`          | short, intuitive             | _may_ also mean out of order manipulations |
-| `put`, `take`        | short, intuitive             | ?    |
+| `put`, `take`        | short, intuitive             | Do not suggest ordering, implies type is a collection    |
 
 #### Access stack (LIFO)
 - `push`
