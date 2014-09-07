@@ -53,7 +53,7 @@ Which pair is better?
 | Pair                 | Pros                         | Cons |
 |----------------------|------------------------------|------|
 | `enqueue`, `dequeue` | explicit, suggest fair order | long |
-| `in`, `out`          | short, intuitive             | _may_ also mean out of order manipulations |
+| `in`, `out`          | short, intuitive, same words as in order spec acronym | _may_ also mean out of order manipulations |
 
 #### Access stack (LIFO)
 - `push`
