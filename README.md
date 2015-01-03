@@ -60,6 +60,8 @@ Which pair is better?
 - `push`
 - `pop`
 
+Why differentiate between LIFO and FIFO accessors? The should ideally be uniform.
+
 ### Traverse sequence
 - `iter`
 - `map`
