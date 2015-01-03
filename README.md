@@ -54,6 +54,7 @@ Which pair is better?
 |----------------------|------------------------------|------|
 | `enqueue`, `dequeue` | explicit, suggest fair order | long |
 | `in`, `out`          | short, intuitive, same words as in order spec acronym | _may_ also mean out of order manipulations |
+| `add`, `remove`      | intuitive, consistent with set accessors | a bit longer than in/out |
 
 #### Access stack (LIFO)
 - `push`
